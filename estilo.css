@@ -7,3 +7,88 @@
 body{
     background: #171234;
 }
+
+
+header{
+    width: 100vw;
+    height: 120px;
+    background-color: #00f;
+    display: flex;
+    gap: 60px;
+}
+
+.logo{
+    margin: 20px 30px;
+}
+
+.menu{
+   width: 100vw;
+
+}
+
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul .li{
+    width: 140px;
+    height: 50px;
+    padding: 8px;
+    background-color: #ff8538;
+    float: left;
+    margin-top: 4%;
+    margin-right: 8%;
+    text-align: center;
+    border-radius: 12px;
+    transition: all .5s ease;
+    
+}
+.ul .li:hover{
+    background-color: #171234;
+}
+
+
+
+.li a{
+    text-decoration: none;
+    font-size: 1.9rem;
+    color: #fff;
+} 
+
+.dropline{
+    position: relative;
+}
+
+.drop-content{
+    margin-top: 6%;
+    position: absolute;
+    display: none; 
+}
+
+li {
+    background-color: #777;
+    width: 200px;
+    height: auto;
+    margin-bottom: 4%;
+    padding: 5px;
+    border-radius: 12px;
+    transition: all .5s ease;
+}
+
+li:hover{
+    background-color: #ff85;
+    color: #004;
+    font-size: 1.5rem;
+}
+
+li a{
+    color: #001;
+    font-size: 1.6rem;
+}
+
+.dropline:hover .drop-content{
+    display: block;
+
+}
