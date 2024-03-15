@@ -61,6 +61,10 @@ header{
     position: relative;
 }
 
+ol{
+    list-style-type: none;
+}
+
 .drop-content{
     margin-top: 6%;
     position: absolute;
@@ -78,7 +82,7 @@ li {
 }
 
 li:hover{
-    background-color: #ff85;
+    background-color: #ff8538;
     color: #004;
     font-size: 1.5rem;
 }
@@ -90,5 +94,31 @@ li a{
 
 .dropline:hover .drop-content{
     display: block;
+
+}
+
+main{
+    position: absolute;
+    margin: auto;
+}
+
+.left-side{
+    float: left;
+    border: 2px solid red;
+    width: 670px;
+    height: 500px;
+    img{
+        width: 660px;
+        height: 490px;
+    }
+}
+
+.right-side{
+    border: 2px solid blue;
+    width: 400px;
+    height: 490px;
+    /* background-color: #777; */
+    float: left;
+
 
 }
